@@ -1,0 +1,11 @@
+# SwiftPM build output. The scripts build outside the project; this covers a bare `swift build`.
+.build/
+.swiftpm/
+
+# Xcode, if the package is opened there
+xcuserdata/
+DerivedData/
+
+# macOS and iCloud Drive
+.DS_Store
+*.icloud
